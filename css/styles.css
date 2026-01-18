@@ -1,0 +1,36 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: ;
+    font-size: ;
+    color: rgba(12, 12, 12, 0.7);
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button{
+    font-family: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1180;
+    padding: 0 15px;
+    margin: 0 auto;
+}
