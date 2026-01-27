@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -33,23 +35,41 @@
         <li class="social-item"><a class="social-link" href="#" target="_blank" rel="nooper noreferrer nofollow"><img
               src="" alt="">Y</a></li>
       </ul>
+
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="34" height="34">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
     </div>
+
   </header>
+
+
   <main>
-    <section>
-      <h1>Welcome to our collection of premium watches</h1>
-      <p>Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic
-        designs to
-        modern ones, we have a watch to suit every taste and occasion.</p>
-      <ul>
-        <li><img src="./images/user-1.jpg" alt="Victoria Romashenko"></li>
-        <li><img src="./images/user-2.jpg" alt="John Wax"></li>
-        <li><img src="./images/user-3.jpg" alt="Anastasia Trachuk"></li>
-      </ul>
-      <a href=""></a>
-      <img src="" alt="">
+    <section class="section">
+
+      <div class="container hero-container">
+        <h1 class="hero-title">Welcome to our
+          <span class="hero-title-accent">collection</span>
+          of premium watches
+        </h1>
+        <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
+          lifestyle. From classic
+          designs to
+          modern ones, we have a watch to suit every taste and occasion.</p>
+        <div class="hero-wrapper">
+          <ul class="hero-list">
+            <li class="hero-item"><img class="hero-icon" src="./images/user-1.jpg" alt="Victoria Romashenko"></li>
+            <li class="hero-item"><img class="hero-icon" src="./images/user-2.jpg" alt="John Wax"></li>
+            <li class="hero-item"><img class="hero-icon" src="./images/user-3.jpg" alt="Anastasia Trachuk"></li>
+          </ul>
+          <a class="hero-link" href="#">Scroll down</a>
+        </div>
+        <img class="hero-img" src="./images/main-mob.jpg" alt="close">
+      </div>
     </section>
-    <section>
+    <section class="section">
       <h2>About Us</h2>
       <p>Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection
         of
