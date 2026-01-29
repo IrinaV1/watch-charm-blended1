@@ -351,3 +351,43 @@ button {
     padding: 15px 44px;
     margin: 0 auto;
 }
+
+/*CONTACTS*/
+
+.contacts-container {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.8),
+            rgba(12, 12, 12, 0.8)), url(../images/contacts-mob.jpg);
+
+    background-color: #0c0c0c;
+    max-width: 335px;
+    height: 363px;
+    border-radius: 30px;
+    padding: 60px 28px;
+}
+
+.contacts-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 8px;
+}
+
+.contakts-title-accent {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.contacts-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    padding: 15px 43px 15px 44px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
+
+/*SALE*/
