@@ -403,6 +403,7 @@ button {
 .sale-list {
     display: flex;
     gap: 5px;
+    margin-bottom: 20px;
 }
 
 .sale-item {
@@ -422,4 +423,99 @@ button {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.sale-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 485px;
+    background-color: #f3f3f3;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.sale-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sale-wrapper {
+    border-radius: 30px;
+    width: 335px;
+    background-color: #3350e9;
+    height: auto;
+    padding: 48px 28px;
+}
+
+.sale-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.sale-text-tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 10px;
+}
+
+.sale-text-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-price {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    border-radius: 8px;
+    background-color: rgba(251, 251, 251, 0.1);
+    padding: 8px 12px;
+    margin-bottom: 28px;
+    margin-right: 9px;
+}
+
+.sale-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-list-watch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-item-watch {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    padding: 7px 11px
 }
