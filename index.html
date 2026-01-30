@@ -264,27 +264,33 @@
         <h2 class="contact-form-title">Contact Us</h2>
         <div class="contact-form-wrapper">
           <p class="contact-form-text">
-            Please use the form below to contact us.
-            Enter your name, email, phone,
-            and message and we'll get back to you shortly.
+            Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to
+            you shortly.
           </p>
-          <form action="">
+          <form class="contact-form" action="">
             <label for="name" class="visually-hidden">Name
             </label>
-            <input id="name" type="text" name="name" placeholder="Name">
+            <input class="form-input" id="name" type="text" name="name" placeholder="Name">
 
             <label for="email" class="visually-hidden">Email
             </label>
-            <input id="email" type="email" name="email" placeholder="Email">
+            <input class="form-input" id="email" type="email" name="email" placeholder="Email">
 
             <label for="tel" class="visually-hidden">Name
             </label>
-            <input id="tel" type="tel" name="tel" placeholder="+380">
+            <input class="form-input" id="tel" type="tel" name="tel" placeholder="+380">
+            <label for="comment">Comment
+            </label>
+            <textarea class="form-input form-input-comment" id="comment" name="comment">Comment</textarea>
 
-            <button type="submit">Send</button>
+            <button class="form-btn" type="submit">Send</button>
           </form>
         </div>
-        <img class="contact-form-image" src="./images/contact-us.jpg" alt="Watch">
+        <div class="contact-image-wrapper">
+
+          <img class="contact-form-image" src="./images/contact-us-mob.jpg" alt="Watch">
+
+        </div>
       </div>
     </section>
 
