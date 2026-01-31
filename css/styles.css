@@ -666,8 +666,71 @@ button {
 }
 
 /*FOOTER*/
-.footer-container {
+/*.footer {
+  background-color: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 72px;
+}
+
+
+.footer-logo {
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: center;
+}*/
+
+.footer {
+    margin: 0 auto;
+
+}
+
+/*.footer-wrapper {
     background-color: #0c0c0c;
     border-radius: 30px;
-    padding: 40px 28px;
+    margin-top: 60px;
+    padding-top: 40px;
+}*/
+
+.footer-logo {
+    display: inline-block;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.footer-link {
+    display: inline-block;
+}
+
+.footer-icon {
+    fill: #fbfbfb;
+}
+
+.footer-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
 }
